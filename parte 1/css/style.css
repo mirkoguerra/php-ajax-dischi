@@ -1,0 +1,47 @@
+/* INIZIALIZZAZIONE */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* GENERALE */
+body {
+  background-color: lightblue;
+}
+div.container {
+  background-color: lightgrey;
+  min-width: 900px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+div.container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+div.container ul li.card {
+  height: 370px;
+  width: 25%;
+  padding: 10px;
+  position: relative;
+}
+div.container ul li.card h1 {
+  font-size: 20px;
+}
+div.container ul li.card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+div.container ul li.card p {
+  font-size: 14px;
+}
+div.container ul li.card img {
+  position: absolute;
+  bottom: 0;
+  height: 250px;
+  width: 200px;
+}
