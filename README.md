@@ -1,4 +1,4 @@
-** php-ajax-dischi
+* php-ajax-dischi
 ## tecnologie
 * HTML
 * CSS
